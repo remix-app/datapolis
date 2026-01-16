@@ -1,6 +1,6 @@
 <?php
 $page_title = "Contacto | Datapolis - Hablemos de tu Proyecto IA";
-$page_description = "Contacta a Datapolis para una consultoría gratuita sobre soluciones de Inteligencia Artificial para tu PyME.";
+$page_description = "Contacta a Datapolis para que te asesoremos sobre soluciones de Inteligencia Artificial para tu PyME.";
 $current_page = "contacto";
 
 include 'includes/header.php';
@@ -23,7 +23,7 @@ include 'includes/header.php';
                 <span class="gradient-text">Conversemos</span>
             </h1>
             <p class="text-xl text-muted max-w-2xl mx-auto mb-8">
-                Estamos listos para ayudarte a dar el salto hacia la Inteligencia Artificial
+                Estamos listos para ayudarte a dar el salto hacia la IA
             </p>
             <!-- Decorative Line -->
             <div class="w-24 h-1 gradient-bg mx-auto rounded-full"></div>
@@ -49,7 +49,7 @@ include 'includes/header.php';
                             </div>
                             <div>
                                 <h3 class="font-semibold mb-1">Horario de Atención</h3>
-                                <p class="text-muted text-sm">Lunes a Viernes: 09:00 - 18:00</p>
+                                <p class="text-muted text-sm">Lunes a Viernes: 08:30 - 17:30</p>
                                 <p class="text-muted text-sm">Sábado: 10:00 - 14:00</p>
                             </div>
                         </div>
@@ -67,20 +67,20 @@ include 'includes/header.php';
                             </div>
                         </div>
 
-                        <!-- Phone -->
+            <!-- Email -->
                         <div class="flex items-start space-x-4">
                             <div
                                 class="w-12 h-12 rounded-lg bg-secondary flex items-center justify-center flex-shrink-0">
-                                <i class="fas fa-phone text-accent"></i>
+                                <i class="fas fa-envelope text-accent"></i>
                             </div>
                             <div>
-                                <h3 class="font-semibold mb-1">Teléfono</h3>
-                                <a href="tel:+56912345678" class="text-accent hover:text-white transition-colors">
-                                    +56 9 1234 5678
+                                <h3 class="font-semibold mb-1">Email</h3>
+                                <a href="mailto:hola@datapolis.cl"
+                                    class="text-accent hover:text-white transition-colors">
+                                    hola@datapolis.cl
                                 </a>
                             </div>
                         </div>
-
                         <!-- WhatsApp -->
                         <div class="flex items-start space-x-4">
                             <div
@@ -95,29 +95,13 @@ include 'includes/header.php';
                                 </a>
                             </div>
                         </div>
-
-                        <!-- Email -->
-                        <div class="flex items-start space-x-4">
-                            <div
-                                class="w-12 h-12 rounded-lg bg-secondary flex items-center justify-center flex-shrink-0">
-                                <i class="fas fa-envelope text-accent"></i>
-                            </div>
-                            <div>
-                                <h3 class="font-semibold mb-1">Email</h3>
-                                <a href="mailto:hola@datapolis.cl"
-                                    class="text-accent hover:text-white transition-colors">
-                                    hola@datapolis.cl
-                                </a>
-                            </div>
-                        </div>
                     </div>
 
                     <!-- Note -->
                     <div class="mt-8 p-4 rounded-lg bg-accent/10 border border-accent/30">
                         <p class="text-sm">
                             <i class="fas fa-lightbulb text-accent mr-2"></i>
-                            <span class="text-muted">Ofrecemos consultorías virtuales para clientes fuera de
-                                Santiago</span>
+                            <span class="text-muted">Ofrecemos consultorías virtuales para clientes en Regiones</span>
                         </p>
                     </div>
 
@@ -133,10 +117,7 @@ include 'includes/header.php';
                                 class="w-12 h-12 rounded-full bg-secondary flex items-center justify-center text-muted hover:text-accent hover:bg-accent/20 transition-all">
                                 <i class="fab fa-instagram text-xl"></i>
                             </a>
-                            <a href="#"
-                                class="w-12 h-12 rounded-full bg-secondary flex items-center justify-center text-muted hover:text-accent hover:bg-accent/20 transition-all">
-                                <i class="fab fa-twitter text-xl"></i>
-                            </a>
+                            
                             <a href="#"
                                 class="w-12 h-12 rounded-full bg-secondary flex items-center justify-center text-muted hover:text-accent hover:bg-accent/20 transition-all">
                                 <i class="fab fa-github text-xl"></i>
@@ -185,17 +166,17 @@ include 'includes/header.php';
                                 placeholder="+56 9 1234 5678">
                         </div>
 
-                        <!-- Company -->
+                        <!-- Company 
                         <div>
                             <label for="empresa" class="block text-sm font-medium text-muted mb-2">
-                                Empresa
+                                Empresa/Institución
                             </label>
                             <input type="text" id="empresa" name="empresa"
                                 class="w-full px-4 py-3 bg-secondary/50 border border-white/10 rounded-lg text-white placeholder-muted focus:border-accent focus:ring-1 focus:ring-accent outline-none transition-all"
-                                placeholder="Nombre de tu empresa">
-                        </div>
+                                placeholder="Nombre de tu organización">
+                        </div> -->
 
-                        <!-- Service Interest -->
+                        <!-- Service Interest 
                         <div>
                             <label for="servicio" class="block text-sm font-medium text-muted mb-2">
                                 ¿Qué servicio te interesa?
@@ -211,9 +192,9 @@ include 'includes/header.php';
                                 <option value="capacitacion" class="bg-primary">Capacitación</option>
                                 <option value="otro" class="bg-primary">Otro / No estoy seguro</option>
                             </select>
-                        </div>
+                        </div> -->
 
-                        <!-- Company Size -->
+                        <!-- Company Size 
                         <div>
                             <label for="tamaño" class="block text-sm font-medium text-muted mb-2">
                                 Tamaño de la empresa
@@ -227,7 +208,7 @@ include 'includes/header.php';
                                 <option value="200+" class="bg-primary">Más de 200 empleados</option>
                             </select>
                         </div>
-
+-->
                         <!-- Message -->
                         <div>
                             <label for="mensaje" class="block text-sm font-medium text-muted mb-2">
@@ -247,7 +228,7 @@ include 'includes/header.php';
 
                         <p class="text-xs text-muted text-center">
                             Al enviar este formulario, aceptas nuestra <a href="#"
-                                class="text-accent hover:underline">Política de Privacidad</a>
+                                class="text-accent hover:underline">Términos de uso</a>
                         </p>
                     </form>
                 </div>
@@ -256,7 +237,7 @@ include 'includes/header.php';
     </div>
 </section>
 
-<!-- Map Section -->
+<!-- Map Section 
 <section class="py-24 bg-primary">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="text-center mb-12">
@@ -266,7 +247,7 @@ include 'includes/header.php';
             <p class="text-muted">Estamos en el corazón de Providencia, Santiago</p>
         </div>
 
-        <!-- Map Container -->
+        
         <div class="rounded-2xl overflow-hidden border border-white/10">
             <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3329.9974088888!2d-70.6088!3d-33.4267!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662cf6c8f7e4e1d%3A0x9c0c7e6e6e6e6e6e!2sAv.%20Providencia%201234%2C%20Providencia%2C%20Regi%C3%B3n%20Metropolitana!5e0!3m2!1ses!2scl!4v1234567890"
@@ -275,7 +256,7 @@ include 'includes/header.php';
                 class="grayscale hover:grayscale-0 transition-all duration-500"></iframe>
         </div>
 
-        <!-- Transport Info -->
+        
         <div class="grid md:grid-cols-3 gap-8 mt-12">
             <div class="flex items-start space-x-4">
                 <div class="w-10 h-10 rounded-lg bg-accent/20 flex items-center justify-center flex-shrink-0">
@@ -308,6 +289,6 @@ include 'includes/header.php';
             </div>
         </div>
     </div>
-</section>
+</section> -->
 
 <?php include 'includes/footer.php'; ?>

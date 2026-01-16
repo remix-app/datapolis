@@ -260,7 +260,7 @@ include 'includes/header.php';
 <!-- About Section -->
 <section class="py-24 bg-light text-primary">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="grid lg:grid-cols-2 gap-16 items-center" id="contacto">
+        <div class="grid lg:grid-cols-2 gap-16 items-center">
             <!-- Image -->
             <div class="relative order-2 lg:order-1">
                 <div class="aspect-[4/3] rounded-2xl overflow-hidden shadow-2xl">
