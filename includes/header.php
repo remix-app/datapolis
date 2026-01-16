@@ -173,7 +173,7 @@
                 <a href="#servicios" class="block text-lg font-medium <?php echo ($current_page ?? '') === 'servicios' ? 'text-accent' : 'text-white'; ?>">
                     Servicios
                 </a>
-                <a href="#contacto" class="block text-lg font-medium <?php echo ($current_page ?? '') === 'contacto' ? 'text-accent' : 'text-white'; ?>">
+                <a href="contacto.php" class="block text-lg font-medium <?php echo ($current_page ?? '') === 'contacto' ? 'text-accent' : 'text-white'; ?>">
                     Contacto
                 </a>
               <!--  <a href="contacto.php" class="inline-flex items-center px-6 py-3 rounded-full gradient-bg font-semibold text-sm uppercase tracking-wider mt-4">

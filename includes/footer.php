@@ -55,7 +55,7 @@
                             </a>
                         </li>
                         <li>
-                            <a href="#contacto" class="text-muted hover:text-accent transition-colors text-sm">
+                            <a href="contacto.php" class="text-muted hover:text-accent transition-colors text-sm">
                                 Contacto
                             </a>
                         </li>
